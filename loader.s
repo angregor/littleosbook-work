@@ -10,6 +10,7 @@ align 4					; align at 4 bytes
 kernel_stack:				; points to start of memory
 	resb KERNEL_STACK_SIZE		; reserves the stack
 
+
 section .text				; var
 align 4					; var
     dd MAGIC_NUMBER			; var

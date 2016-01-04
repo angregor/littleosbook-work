@@ -16,7 +16,6 @@ void fb_move_cursor(unsigned short pos)
 	outb(FB_DATA_PORT, pos & 0x00FF);
 }
 
-
 int print_a_letter(unsigned int i, char c, unsigned char fg, unsigned char bg)
 {
    	fb[i] = c;
